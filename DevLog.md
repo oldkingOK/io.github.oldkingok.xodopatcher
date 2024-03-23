@@ -25,3 +25,25 @@ dependencies {
     compileOnly 'de.robv.android.xposed:api:82' // add this line
 }
 ```
+
+## Add as debug
+
+```shell
+adb shell
+su
+magisk resetprop ro.debuggable 1
+stop;start;
+```
+
+```shell
+adb shell am set-debug-app -w --persistent com.xodo.pdf.reader
+adb shell monkey -p com.xodo.pdf.reader -c android.intent.category.LAUNCHER 1
+```
+
+IDEA: Run -> Attach Debugger to Android process
+
+Clear debug
+
+```shell
+adb shell am clear-debug-app
+```
