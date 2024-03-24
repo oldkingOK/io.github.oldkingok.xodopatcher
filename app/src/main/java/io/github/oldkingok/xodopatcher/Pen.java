@@ -1,4 +1,4 @@
-package com.github.oldkingok.xodopatcher;
+package io.github.oldkingok.xodopatcher;
 
 import android.app.AlertDialog;
 import android.content.Context;

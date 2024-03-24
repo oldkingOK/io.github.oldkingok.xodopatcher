@@ -1,4 +1,4 @@
-package com.github.oldkingok.xodopatcher;
+package io.github.oldkingok.xodopatcher;
 
 public class Consts {
     public static final String SHARE_PREFERENCES_NAME = "Patcher";
