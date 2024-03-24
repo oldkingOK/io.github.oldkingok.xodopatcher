@@ -2,10 +2,10 @@
 
 A Xposed Module for patching [Xodo](https://xodo.com/), a modern pdf editor for android.
 
-# Functions
+# Features
 
 1. Pro Unlocked
-2. Able to set smart pen (Xiaomi) functions
+2. Able to set smart pen (Xiaomi) button shortcuts
 
 **How to set**
 
